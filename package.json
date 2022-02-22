@@ -1,17 +1,16 @@
 {
-  "name": "node-example",
+  "name": "test-builder-api",
   "version": "1.0.0",
-  "description": "This example is so cool.",
+  "description": "aaaa",
   "main": "app.js",
-  "homepage": ".",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "express": "^4.17.3",
     "json-server": "^0.17.0"
   },
   "engines": {
     "node": "14.x"
-  },
-  "scripts": {
-    "start": "node app.js"
   }
 }
