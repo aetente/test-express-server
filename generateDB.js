@@ -4,11 +4,18 @@
 // import uniswap from "./assets/images/uniswap.png";
 
 module.exports = () => {
-    const baseURL = "http://localhost";
-    const ethereum = baseURL + ":8080/assets/images/ethereum.png";
-    const compound = baseURL + ":8080/assets/images/compound.png";
-    const yearnfin = baseURL + ":8080/assets/images/yearnfin.png";
-    const uniswap = baseURL + ":8080/assets/images/uniswap.png";
+    const baseURL = "https://test-builder-api.herokuapp.com";
+
+    const ethereum = baseURL + "/assets/images/ethereum.png";
+    const compound = baseURL + "/assets/images/compound.png";
+    const yearnfin = baseURL + "/assets/images/yearnfin.png";
+    const uniswap = baseURL + "/assets/images/uniswap.png";
+
+    const wbtc = baseURL + "/assets/images/wbtc.png";
+    const ftm = baseURL + "/assets/images/ftm.png";
+    const eth = baseURL + "/assets/images/eth.png";
+    const dai = baseURL + "/assets/images/dai.png";
+
     const data = {
         protocols: [
             {
@@ -38,6 +45,28 @@ module.exports = () => {
                 backgroundColor: "#FFEFF7",
                 borderColor: "#FF5DAC",
                 image: uniswap
+            }
+        ],
+        tokens: [
+            {
+                id: "0",
+                name: "WBTC",
+                image: wbtc
+            },
+            {
+                id: "1",
+                name: "FTM",
+                image: ftm
+            },
+            {
+                id: "2",
+                name: "ETH",
+                image: eth
+            },
+            {
+                id: "3",
+                name: "DAI",
+                image: dai
             }
         ]
     };
