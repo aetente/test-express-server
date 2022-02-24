@@ -4,31 +4,51 @@
       "id": "0",
       "name": "Ethereum",
       "backgroundColor": "#f6f6f6",
-      "borderColor": "#8c8c8c"
+      "borderColor": "#8c8c8c",
+      "image": "https://test-builder-api.herokuapp.com/assets/images/ethereum.png"
     },
     {
       "id": "1",
       "name": "Compound",
       "backgroundColor": "#F2FBF8",
-      "borderColor": "#00D395"
+      "borderColor": "#00D395",
+      "image": "https://test-builder-api.herokuapp.com/assets/images/compound.png"
     },
     {
       "id": "2",
       "name": "Yearn.finance",
       "backgroundColor": "#EEF1F4",
-      "borderColor": "#307FD2"
+      "borderColor": "#307FD2",
+      "image": "https://test-builder-api.herokuapp.com/assets/images/yearnfin.png"
     },
     {
       "id": "3",
       "name": "Uniswap",
       "backgroundColor": "#FFEFF7",
-      "borderColor": "#FF5DAC"
+      "borderColor": "#FF5DAC",
+      "image": "https://test-builder-api.herokuapp.com/assets/images/uniswap.png"
+    }
+  ],
+  "tokens": [
+    {
+      "id": "0",
+      "name": "WBTC",
+      "image": "https://test-builder-api.herokuapp.com/assets/images/wbtc.png"
     },
     {
-      "id": "4",
-      "backgroundColor": "rgba(155,178,194,1)",
-      "borderColor": "#19384d",
-      "name": "xc "
+      "id": "1",
+      "name": "FTM",
+      "image": "https://test-builder-api.herokuapp.com/assets/images/ftm.png"
+    },
+    {
+      "id": "2",
+      "name": "ETH",
+      "image": "https://test-builder-api.herokuapp.com/assets/images/eth.png"
+    },
+    {
+      "id": "3",
+      "name": "DAI",
+      "image": "https://test-builder-api.herokuapp.com/assets/images/dai.png"
     }
   ]
 }
